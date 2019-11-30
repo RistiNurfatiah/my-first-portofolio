@@ -11,6 +11,6 @@ const Button = props => {
 export default Button
 const styles ={
     button:{
-        display:'flex', backgroundColor: '#2CA64E', padding: 16, color: '#fff', borderRadius: 10
+        display:'flex', backgroundColor: 'orange', padding: 16, paddingLeft: 40, paddingRight: 40, color: '#fff', borderRadius: 10, marginLeft: 10
         }
 }
