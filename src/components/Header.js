@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { ComponentSpec } from 'react';
 
 const Header = props => {
     return(
-        <div style={styles.topText}>{props.title}</div> 
+        <div style={styles.topText}>
+            {props.title}
+            </div> 
     )
 }
 
